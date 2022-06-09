@@ -1,0 +1,20 @@
+.header__box-left,
+.header__box-right {
+  background-color: #dddddd;
+  border-radius: 0 0 5px 5px;
+}
+
+.header__box-left {
+  flex: 1;
+}
+
+.header__box-right {
+  flex: 2;
+}
+
+.header__p {
+  margin: 39px 296px 43px 80px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}/*# sourceMappingURL=header.css.map */

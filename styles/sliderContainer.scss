@@ -1,0 +1,24 @@
+@import "./mixins";
+@mixin name {}
+
+.slider__container {
+    @include flexColumnGap(10px);
+}
+
+.slider__top-row {
+    @include flexRowJustifyEnd(1230px, 10px);
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.slider__bottom-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slider__bottom-imgs {
+    @include flexRowJustifyEnd(1080px, 10px);
+    transition: all 0.5s;
+    overflow: hidden;
+}

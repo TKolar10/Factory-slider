@@ -1,0 +1,38 @@
+.slider__btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slider__bottom-imgs > img,
+.slider__top-row > img {
+  height: 200px;
+}
+
+.slider__btn {
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid rgb(221, 221, 221);
+}
+
+.slider__btn--left {
+  background-image: url("../Assets/arrow-gray-left.png");
+}
+
+.slider__btn--right {
+  background-image: url("../Assets/arrow-gray-right.png");
+}
+
+.slider__btn--left:hover {
+  border: 1px solid #134880;
+  background-image: url("../Assets/arrow-blue-left.png");
+}
+
+.slider__btn--right:hover {
+  border: 1px solid #134880;
+  background-image: url("../Assets/arrow-blue-right.png");
+}/*# sourceMappingURL=sliderBtns.css.map */

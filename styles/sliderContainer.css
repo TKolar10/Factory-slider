@@ -1,0 +1,31 @@
+.slider__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slider__top-row {
+  width: 1230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+.slider__bottom-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.slider__bottom-imgs {
+  width: 1080px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+  transition: all 0.5s;
+  overflow: hidden;
+}/*# sourceMappingURL=sliderContainer.css.map */

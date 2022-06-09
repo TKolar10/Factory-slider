@@ -1,0 +1,13 @@
+@mixin flexRowJustifyEnd($width, $gap) {
+    width: $width;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: $gap;
+}
+
+@mixin flexColumnGap($gap) {
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+}
